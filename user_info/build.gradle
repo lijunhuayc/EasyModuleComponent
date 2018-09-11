@@ -1,0 +1,16 @@
+apply plugin: 'com.android.library'
+apply from: "../gradle_component/baseconfig.gradle"
+apply from: "../gradle_component/butterknife.gradle"
+apply from: "../gradle_component/arouter.gradle" //添加此gradle依赖一定要依赖 base_library库(统一依赖ARouter配置库, arouter_server中的 api 'com.alibaba:arouter-api:1.3.1')
+
+android {
+    defaultConfig {
+    }
+    resourcePrefix "userinfo_"
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':base_library')
+
+}

@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar" tools:ignore="ResourceName">
+        <!-- all activity theme base -->
+        <item name="colorPrimary">@color/commonColorBrand</item>
+        <item name="android:textColorPrimary">@color/commonTextColorPrimary</item>
+        <item name="colorPrimaryDark">@color/commonColorBrand</item>
+        <item name="colorAccent">@android:color/black</item>
+        <item name="android:windowBackground">@android:color/white</item><!-- 页面底色 -->
+        <!--<item name="android:windowAnimationStyle">@style/activitySwitchDefaultAnim</item>-->
+    </style>
+
+    <style name="ChekuAppTheme" parent="BaseTheme" tools:ignore="ResourceName">
+        <!-- 为沉浸式预留Theme-->
+    </style>
+</resources>

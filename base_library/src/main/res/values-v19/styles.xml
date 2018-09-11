@@ -1,0 +1,5 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="ChekuAppTheme" parent="BaseTheme" tools:ignore="ResourceName">
+    </style>
+</resources>

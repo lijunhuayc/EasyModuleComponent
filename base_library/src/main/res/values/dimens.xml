@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- created by lijunhua -->
+    <dimen name="common_content_padding_horizontal" tools:ignore="ResourceName">16dp</dimen>
+    <dimen name="common_content_padding_horizontal_second" tools:ignore="ResourceName">13dp</dimen>
+    <dimen name="textSizeBold" tools:ignore="ResourceName">18sp</dimen>
+    <dimen name="textSizeBigPrimary" tools:ignore="ResourceName">16sp</dimen>
+    <dimen name="textSizePrimary" tools:ignore="ResourceName">14sp</dimen>
+    <dimen name="textSizeSecond" tools:ignore="ResourceName">12sp</dimen>
+    <dimen name="textSizeTag" tools:ignore="ResourceName">11sp</dimen>
+    <dimen name="textSizeMini" tools:ignore="ResourceName">10sp</dimen>
+    <!-- created by lijunhua -->
+</resources>

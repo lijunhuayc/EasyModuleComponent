@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- standard color define created by lijunhua -->
+    <color name="coolTextColorBrand">#0a355a</color>
+    <color name="coolColorContentDivided">#eeeeee</color>
+    <color name="coolColorRed">#fe6458</color>
+    <color name="coolTextColorPrimary">#7d7d83</color>
+    <color name="coolColorWhite">#ffffff</color>
+    <color name="coolColorLoadingBackground">#55000000</color>
+    <!-- standard color define created by lijunhua -->
+</resources>

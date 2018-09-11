@@ -1,0 +1,9 @@
+include ':app', ':main', ':base_library', ':user_info'
+include ':cool_dialog', 'FlycoTabLayoutLibrary', 'SwipeBackLayoutLibrary', ':sharesdk', ':jpush'
+
+project(':cool_dialog').projectDir = new File('third_library/cool_dialog')
+project(':FlycoTabLayoutLibrary').projectDir = new File('third_library/FlycoTabLayoutLibrary')
+project(':SwipeBackLayoutLibrary').projectDir = new File('third_library/SwipeBackLayoutLibrary')
+project(':sharesdk').projectDir = new File('third_library/sharesdk')
+project(':jpush').projectDir = new File('third_library/jpush')
+
